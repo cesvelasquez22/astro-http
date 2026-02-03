@@ -10,7 +10,8 @@
     "preview:remote": "npx astro build --remote && npx wrangler dev",
     "deploy": "npx astro build --remote && npx wrangler deploy",
     "astro": "astro",
-    "db:push": "astro db push --remote"
+    "db:push": "astro db push --remote",
+    "test": "astro"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",
