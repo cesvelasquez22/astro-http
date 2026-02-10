@@ -5,21 +5,13 @@ import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 
 import cloudflare from "@astrojs/cloudflare";
-
 import db from "@astrojs/db";
-
 import vue from "@astrojs/vue";
-
-// import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  site: "https://example.com",
-
-  // adapter: node({
-  //   mode: 'standalone',
-  // }),
+  site: "https://astro-http.ces-velasquez.workers.dev",
   integrations: [mdx(), sitemap(), db(), vue()],
 
   adapter: cloudflare(),
