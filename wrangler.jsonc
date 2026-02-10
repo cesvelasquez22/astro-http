@@ -6,9 +6,6 @@
     "nodejs_compat",
     "global_fetch_strictly_public"
   ],
-  "vars": {
-    "ASTRO_DB_REMOTE_URL": "libsql://05-database-cesvelasquez22.aws-us-east-2.turso.io"
-  },
 	"assets": {
 		"binding": "ASSETS",
 		"directory": "./dist"
