@@ -7,8 +7,8 @@
     "dev:remote": "astro dev --remote",
     "build": "astro build --remote",
     "preview": "astro preview",
-    "preview:remote": "npx astro build --remote && npx wrangler dev",
-    "deploy": "npx astro build --remote && npx wrangler deploy",
+    "preview:remote": "astro build --remote && wrangler dev",
+    "deploy": "astro build --remote && wrangler deploy",
     "astro": "astro",
     "db:push": "astro db push --remote",
     "test": "astro"
