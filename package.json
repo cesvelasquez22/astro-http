@@ -4,10 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "dev:remote": "astro dev --remote",
+    "dev:remote": "astro build --remote && wrangler dev",
+    "build:dev": "astro build",
     "build": "astro build --remote",
-    "preview": "astro preview",
-    "preview:remote": "astro build --remote && wrangler dev",
     "deploy": "astro build --remote && wrangler deploy",
     "astro": "astro",
     "db:push": "astro db push --remote",
